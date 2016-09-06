@@ -1,0 +1,27 @@
+﻿.container-fluid{
+    max-width: 90%;
+    margin: auto;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ed7070;
+}
+
+.fa {
+    padding-right: 5px;
+}
+
+.jumbotron{
+    box-shadow: 5px 5px 5px #808080;
+}
+.jumbotron h1{
+    display: inline;
+    padding-right: 0px;
+    text-shadow: 2px 2px 2px #808080;
+}
+
+.jumbotron .fa{
+    padding-right: 0px;
+    text-shadow: 2px 2px 2px #808080;
+}
