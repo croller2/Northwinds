@@ -3,6 +3,9 @@
     margin: auto;
 }
 
+h1{
+    text-align: center;
+}
 a:hover{
     text-decoration: none;
     color: #ed7070;
