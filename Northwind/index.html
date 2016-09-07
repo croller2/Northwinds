@@ -8,13 +8,16 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.css" rel="stylesheet" />
     <link href="Content/index.css" rel="stylesheet" />
-
+    <link href="Content/jquery-ui.css" rel="stylesheet" />
+    <link rel="icon"
+          type="image/ico"
+          href="images/favicon-tree.ico">
 
 </head>
 
 
 <body>
-    <nav class="navbar navbar-inverse navbar-static-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="#" class="navbar-brand"><i class="fa fa-home"></i>Home</a>
@@ -29,21 +32,21 @@
             <div class="collapse navbar-collapse" id="collapse-menu">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-database"></i>Products<b class="caret"></b></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-shopping-bag"></i>Products<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Browse Categories</a></li>
-                            <li><a href="#">Product Search</a></li>
+                            <li><a href="#"><i class="fa fa-list"></i>Browse Categories</a></li>
+                            <li><a href="#"><i class="fa fa-search"></i>Product Search</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">Current Discounts</a></li>
+                            <li><a href="#"><i class="fa fa-usd"></i>Current Discounts</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-users"></i>Customers<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Sign In</a></li>
-                            <li><a href="#">Register</a></li>
+                            <li><a href="#"><i class="fa fa-sign-in"></i>Sign In</a></li>
+                            <li><a href="#"><i class="fa fa-user-plus"></i>Register</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">Your Account</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i>Your Account</a></li>
                         </ul>
                     </li>
                     <li>
@@ -63,7 +66,7 @@
     </nav>
 
 
-
+<div class="wrapper">
     <div class="container">
         <div class="jumbotron">
             <h1>N</h1><i class="fa fa-compass fa-2x"></i><h1>rthwind</h1>
@@ -99,13 +102,14 @@
     </div>
 
 
+    </div>
+
+
     <!-- jquery and bootstrap frameworks -->
     <script src="Scripts/jquery-1.10.2.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('[data-toggle="popover"]').popover();
-        });
-    </script>
+    <script src="Scripts/jquery-ui.min.js"></script>
+    <script src="Scripts/Northwind.js"></script>
+
 </body>
 </html>
